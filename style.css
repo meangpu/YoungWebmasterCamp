@@ -21,6 +21,7 @@ body {
 img {
   width: 100%;
   border-radius: 0.5rem;
+  margin-bottom: 2rem;
 }
 
 h1 {
