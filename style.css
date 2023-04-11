@@ -1,0 +1,150 @@
+body {
+  font-family: "Kanit", sans-serif;
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  margin-top: 0;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.cta {
+  margin-bottom: 40px;
+}
+
+.cta textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.cta button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.cta button:hover {
+  background-color: #0056b3;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+p {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #ffffffb7;
+}
+
+section {
+  width: 85vw;
+  margin: 2vh auto;
+}
+
+.project-container {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+  grid-gap: 1rem;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  background-color: #0000006b;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.project h3 {
+  font-size: 1.5rem;
+}
+
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+.iframe-container iframe {
+  border: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.project h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #000;
+}
+
+footer p {
+  font-size: 1.2rem;
+}
+
+/* For phones */
+@media screen and (max-width: 576px) {
+  header h1 {
+    font-size: 2.5rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+}
+
+/* For iPads */
+@media screen and (max-width: 768px) {
+  header h1 {
+    font-size: 2.5rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+}
