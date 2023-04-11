@@ -12,7 +12,7 @@ function AddNewline(text) {
   let datNewLine = text.replaceAll("-", "\r\n-");
   let newParagraph = datNewLine.replaceAll(
     "..",
-    "\r\n\r\n========================================================"
+    "\r\n\r\n===================================================================================="
   );
   let finalText = newParagraph.replaceAll("*", "*\r\n");
 

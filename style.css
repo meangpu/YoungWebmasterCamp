@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Kanit", sans-serif;
   background-color: #1a1a1a;
@@ -8,7 +14,7 @@ body {
 .container {
   max-width: 800px;
   margin: 0 auto;
-  padding: 40px;
+  padding: 20px;
   text-align: center;
 }
 
@@ -20,15 +26,16 @@ h1 {
 
 p {
   font-size: 18px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
+
 .converted-text {
   text-align: left;
   color: #fff;
 }
 
 .cta {
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 .cta textarea {
@@ -40,96 +47,13 @@ p {
   color: #fff;
   border: #000;
   font-family: "Kanit", sans-serif;
-  border-radius: 1rem;
-}
-
-.cta button {
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  padding: 12px 24px;
-  font-size: 18px;
-  cursor: pointer;
-}
-
-.cta button:hover {
-  background-color: #0056b3;
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  border-radius: 0.5rem;
 }
 
 header {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-h2 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-  text-align: center;
-}
-
-p {
-  font-size: 1.2rem;
-  text-align: center;
-  color: #ffffffb7;
-}
-
-section {
-  width: 85vw;
-  margin: 2vh auto;
-}
-
-.project-container {
-  padding: 1rem;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
-  grid-gap: 1rem;
-}
-
-.project {
-  display: flex;
-  flex-direction: column;
-  background-color: #0000006b;
-  padding: 1rem;
-  border-radius: 5px;
-}
-
-.project h3 {
-  font-size: 1.5rem;
-}
-
-.iframe-container {
-  overflow: hidden;
-  padding-top: 56.25%;
-  position: relative;
-}
-.iframe-container iframe {
-  border: 0;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
-
-.project h3 {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-}
-
-footer {
-  text-align: center;
-  padding: 1rem;
-  background-color: #000;
-}
-
-footer p {
-  font-size: 1.2rem;
 }
 
 /* For phones */
